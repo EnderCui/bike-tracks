@@ -1,0 +1,25 @@
+{
+  "name": "Bike Tracks",
+  "description": "Sample Multi-Sensory Application",
+  "repository": "https://github.com/multisensory/bike-tracks",
+  "logo": "https://developer.salesforce.com/resource/images/salesforce-developer-network-logo_1.png",
+  "keywords": ["multi-sensory", "iot", "salesforce"],
+  "env": {
+    "APPLICATION_SECRET": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    "SALESFORCE_CONSUMER_KEY": {
+      "description": "Salesforce OAuth Consumer Key"
+    },
+    "SALESFORCE_CONSUMER_SECRET": {
+      "description": "Salesforce OAuth Consumer Secret"
+    },
+    "SALESFORCE_USERNAME": {
+    "description": "Salesforce Integration Username"
+    },
+    "SALESFORCE_SALESFORCE_PASSWORD": {
+    "description": "Salesforce Integration Password"
+    }
+  }
+}
