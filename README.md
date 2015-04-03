@@ -53,10 +53,9 @@ Bike Tracks Multi-Sensory Application
 
 ## Deploy on Heroku
 
-1. [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+1. [![Deploy the bike-tracks app on Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 1. Setup the tracker app on the Raspberry Pi
-    1. Make sure the device is connected to the same network as your machine
-    1. Update the web connection info in the `tracker.py` on your device by changing the `conn = ...` line to the following (replacing the IP with you machine's local IP):
-            httplib.HTTPConnection("yournewapp.herokuapp.com")
-    1. Run the tracker script:
-            python tracker.py
+1. Update the web connection info in the `tracker.py` on your device by changing the `conn = ...` line to the following:
+        httplib.HTTPConnection("yournewapp.herokuapp.com")
+1. Run the tracker script:
+        python tracker.py

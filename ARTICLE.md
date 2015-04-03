@@ -24,7 +24,7 @@ The senses and transducers needed to build this MSA are:
  
 * Storage Transducers: Rental bikes, reservations, & support cases
 * Integration Transducer: Associate bike location with rental bike & reservation
-* Analysis Transducer: Creates support cases for lost bikes
+* Learning Transducer: Creates support cases for lost bikes
 * Notification Transducer: Emails bike shop associate when a support case is created
 
 Breaking this down into individual components and microservices:
@@ -214,10 +214,11 @@ Here is what the Raspberry Pi hardware looks like:
 
 I used the [Adafruit Ultimate GPS Breakout](https://www.adafruit.com/product/746) via USB, following [the Adafruit instructions](https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi/introduction) to setup everything.  For networking I used an Edimax USB wifi adapter.  If I were building this for the real world I would have used a GPRS modem with a prepaid SIM card.
 
-That's it for the code!  You can build and deploy all of this stuff on your own!  [Check out the deployment instructions](https://github.com/multisensory/bike-tracks/blob/master/README.md).
+That's it for the code!  You can build and deploy all of this stuff on your own!  [Check out the development & deployment instructions](https://github.com/multisensory/bike-tracks/blob/master/README.md).
 
 
-*** TODO: Going Further ***
+## Going Further
 
- 
-In future blogs I will expand on this simple example and add the ability to do big data analysis on the anonymous location data to determine the most popular routes.
+This example Multi-Sensory Application is just the start to what we can do when we connect IoT devices to business processes and customer experiences.  In future articles I will add an Analysis Transducer that could use the aggregate location data to determine the most popular routes.  I will also show how customer experiences can be built on top of this foundation to deliver things like social sharing so that bike renters can share their route with their friends.
+
+As software evolves from being CRUD-centric to being Multi-Sensory, developers will be faced with new paradigms and architectures for connecting everything.  Stay tuned as we further explore how to build modern, Multi-Sensory Applications using technologies like IoT, microservices, big data, and machine learning.
