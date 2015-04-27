@@ -14,7 +14,7 @@ Ok, now lets walk through an MSA that uses location sensor data and wraps a busi
 
 Before we go into the technical architecture, here is a short video demonstrating this MSA:
 
-*** TODO: Video ***
+[Watch the Video](https://www.youtube.com/watch?v=AVObLwHLdrA)
 
 The senses and transducers needed to build this MSA are:
 
